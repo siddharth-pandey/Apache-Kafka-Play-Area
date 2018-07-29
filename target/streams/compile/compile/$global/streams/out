@@ -1,0 +1,22 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/sid/Documents/Projects/GitHub/kafka-basic-app/src/main/java/ProducerApp.java:1:1: package org.apache.kafka.clients.producer does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.kafka.clients.producer.KafkaProducer;[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/sid/Documents/Projects/GitHub/kafka-basic-app/src/main/java/ProducerApp.java:2:1: package org.apache.kafka.clients.producer does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.kafka.clients.producer.ProducerConfig;[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/sid/Documents/Projects/GitHub/kafka-basic-app/src/main/java/ProducerApp.java:3:1: package org.apache.kafka.clients.producer does not exist[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.kafka.clients.producer.ProducerRecord;[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/sid/Documents/Projects/GitHub/kafka-basic-app/src/main/java/ProducerApp.java:12:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   class KafkaProducer[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class ProducerApp[0m
+[0m[[0m[31merror[0m] [0m[0m        KafkaProducer<String, String> producer = null;[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/sid/Documents/Projects/GitHub/kafka-basic-app/src/main/java/ProducerApp.java:22:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   class KafkaProducer[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class ProducerApp[0m
+[0m[[0m[31merror[0m] [0m[0m            producer = new KafkaProducer<String, String>(properties);[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/sid/Documents/Projects/GitHub/kafka-basic-app/src/main/java/ProducerApp.java:25:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   class ProducerRecord[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class ProducerApp[0m
+[0m[[0m[31merror[0m] [0m[0m                producer.send(new ProducerRecord<String, String>("kafka-training", Integer.toString(i), "Message: " + Integer.toString(i)));[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/sid/Documents/Projects/GitHub/kafka-basic-app/src/main/java/ProducerApp.java:26:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   class ProducerRecord[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class ProducerApp[0m
+[0m[[0m[31merror[0m] [0m[0m                producer.send(new ProducerRecord<String, String>("kafka-training-2", Integer.toString(i), "Message: " + Integer.toString(i)));[0m
